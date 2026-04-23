@@ -1,0 +1,113 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+/* Logo at top-left */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-size: 28px;
+    color: #25d0dc;
+}
+
+/* Sup styling */
+.logo sup {
+    font-size: 14px;
+}
+/* Top Right Sign In */
+#signin {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+/* Logo / Title */
+h1 {
+    font-size: 40px;
+    color: #25d0dc;
+    margin-bottom: 10px;
+}
+
+h1 sup {
+    font-size: 18px;
+}
+
+/* Tagline */
+.text {
+    display: block;
+    font-size: 32px;
+    font-weight: bold;
+    color: #7ce7ef;
+    margin: 5px 0;
+}
+
+/* Paragraph */
+p {
+    margin: 20px 0;
+    font-size: 16px;
+    color: #dcdcdc;
+}
+
+/* Input */
+input {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #25d0dc;
+    width: 260px;
+    outline: none;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+/* Buttons */
+button {
+    background-color: #25d0dc;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 18px;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #1bb5bf;
+    transform: scale(1.05);
+}
+
+/* Continue Button */
+#continue {
+    width: 260px;
+}
+
+/* Image */
+img {
+    margin-bottom: 15px;
+}
+.top-buttons {
+    position: absolute;
+    top: 15px;
+    right: 30px;
+}
+
+.top-buttons button {
+    margin-left: 10px;
+}

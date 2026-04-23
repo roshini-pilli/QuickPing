@@ -1,0 +1,128 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* Logo */
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    color: #25d0dc;
+}
+
+.logo sup {
+    font-size: 14px;
+}
+
+/* Container */
+.container {
+    width: 380px;
+    max-width: 90%;
+    padding: 35px;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    text-align: center;
+    box-shadow: 0 0 25px rgba(0,0,0,0.3);
+}
+
+/* Headings */
+.container h2 {
+    margin-bottom: 10px;
+}
+
+.container p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: #ddd;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+}
+
+/* Button */
+#loginBtn {
+    width: 100%;
+    padding: 12px;
+    background: #25d0dc;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#loginBtn:hover {
+    background: #1bb5bf;
+}
+
+/* Signup text */
+.signup-text {
+    margin-top: 15px;
+    font-size: 13px;
+}
+
+.signup-text a {
+    color: #25d0dc;
+    text-decoration: none;
+}
+.forgot {
+    text-align: right;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.forgot a {
+    color: #25d0dc;
+    text-decoration: none;
+}
+.main-btn {
+    margin-top: 20px;
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+.password-box {
+    position: relative;
+    width: 100%;
+}
+
+.password-box input {
+    width: 100%;
+    padding: 12px;
+    padding-right: 45px; /* space for eye */
+    border-radius: 8px;
+    border: none;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;   /* ✅ pointer fix */
+    font-size: 16px;
+    user-select: none;
+}
